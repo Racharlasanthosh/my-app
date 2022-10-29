@@ -1,0 +1,26 @@
+.parent{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 20%;
+    background-color: black;
+    color: azure;
+    text-align: center;
+    overflow: auto;
+}
+.left >h6{
+    cursor: pointer;
+}
+.left > h3:hover{
+    background-color: aqua;
+}
+.right{
+    height: 100%;
+    width: 80%;
+    background-color:white;
+    overflow: auto;
+    
+}
