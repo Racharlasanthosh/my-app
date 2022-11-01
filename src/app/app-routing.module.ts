@@ -9,6 +9,7 @@ import { CalculatorComponent } from './calculator/calculator.component';
 import { CarsComponent } from './cars/cars.component';
 import { CartComponent } from './cart/cart.component';
 import { CreateAccountComponent } from './create-account/create-account.component';
+import { CreateUserComponent } from './create-user/create-user.component';
 import { DashbordComponent } from './dashbord/dashbord.component';
 import { EmployeeRegistrationComponent } from './employee-registration/employee-registration.component';
 import { EventbindingComponent } from './eventbinding/eventbinding.component';
@@ -51,7 +52,8 @@ const routes: Routes = [
     {path:'flipcart',component:FlipcartComponent},
     {path:'bank-details/:id',component:BankDetailsComponent},
     {path:'vehicle-details/:id',component:VehicleDetailsComponent},
-    {path:'create-account',component:CreateAccountComponent,canDeactivate:[NotifyGuard]}
+    {path:'create-account',component:CreateAccountComponent,canDeactivate:[NotifyGuard]},
+    {path:'create-user',component:CreateUserComponent}
 
   ]},
   {path:'',component:LoginComponent},
